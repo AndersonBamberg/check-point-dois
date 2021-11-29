@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+body {
+    background-color: rgba(223, 221, 221, 0.411);
+}
+
+h1 {
+    margin: 20px;
+    color: blue;
+    text-align: center;
+}
+
+fieldset {
+    margin: 30px;
+    border: 4px blue solid;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+legend {
+    color: blue;
+    font-size: 20px;
+    padding: 10px;
+}
+
+div {
+    margin: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 15px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 20px;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.3s ;
+}
+
+button:hover {
+    background-color: white;
+    color: blue;
+    transform: scale(1.1);
+}
+
+.nome input {
+    height: 20px;
+    border: none;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.3s ;
+}
+
+.nome input:hover {
+    transform: scale(1.1);
+}
+
+.email input {
+    height: 20px;
+    border: none;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.3s ;
+}
+
+.email input:hover {
+    transform: scale(1.1);
+}
+
+.telefone input {
+    height: 20px;
+    border: none;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.3s ;
+}
+
+.telefone input:hover {
+    transform: scale(1.1);
+}
+
+.datanascimento input {
+    height: 20px;
+    border: none;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.3s ;
+}
+
+.datanascimento input:hover {
+    transform: scale(1.1);
+}
