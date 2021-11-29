@@ -6,7 +6,7 @@ title {
 }
 
 body {
-    background-image: url(/img/parkshopping.jpg);
+    background-image: url(./img/parkshopping.jpg);
     background-size: 100%;
     text-align: center;
 }
